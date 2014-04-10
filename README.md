@@ -56,7 +56,8 @@ or
 6. Point your browser to:
          
          http://localhost:4000
-   The IDE will show. If it doesn't, make sure your browser isn't blocking popup windows. 
+   The Helios IDE will show. If it doesn't, make sure your browser isn't blocking popup windows. 
+   For some reason the old IDE does not work and thus the command to open it has been commented out in *index.html*.
 7. In the Smalltalk browser go to the SamplePackage at the bottom. Add your own code.
 8. To commit code, Ctrl-space and then 'k' when on a given package. The code is saved in the *st* subdirectory.
 
