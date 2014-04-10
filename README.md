@@ -1,4 +1,7 @@
-Note: NOT YET TESTED by a second person.
+Note: 
+- This is a simplified version of Philippe's setup. 
+- Instructions are more elaborate. 
+- It has NOT YET BEEN TESTED by a third person.
 
 amber-kickstart
 ===============
