@@ -10,7 +10,7 @@ Amber is a superb project. This project provides an empty client side sample pro
 This ReadMe describes how to get Amber running with the sample project. 
 
 
-## Prerequisite
+## Prerequisites
 
 You have installed Amber command line version according to the instructions on 
     http://docs.amber-lang.net/overview/installing.html
@@ -27,11 +27,12 @@ or
 (Ubuntu type of systems)
 
 
-What do we have in here?
+## What do we have in here?
 
 - Instructions how to install Amber for a client side solution.
   (Point 2 of http://docs.amber-lang.net/overview/installing.html)
 - A ready made template to start with right out of the box.
+
 
 ## Installation of Client side amber
 
