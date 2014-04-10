@@ -1,4 +1,4 @@
-Note: NOT YET TESTED
+Note: NOT YET TESTED by a second person.
 
 amber-kickstart
 ===============
@@ -6,7 +6,7 @@ amber-kickstart
 A starting point for a frontend with Amber. Amber is a superb project. 
 As of now (version 0.12.3) it still needs an easy way to get started for newcomers.
 
-This ReadMe file describes in eight easy steps how to get Amber running with an empty sample project. 
+This ReadMe file describes in eight easy steps how to get Amber running with an empty sample project. It works with a package called *MyPackage*.
 
 
 ## What do we have in here?
@@ -57,3 +57,15 @@ or
 7. In the Smalltalk browser go to the SamplePackage at the bottom. Add your own code.
 8. To commit code, Ctrl-space and then 'k' when on a given package. The code is saved in the *st* subdirectory.
 
+
+## Note
+
+This sample project comes with a package *MyPackage*. If you want to change the name you have to
+
+- Rename
+    - *MyPackage.st* 
+    - *MyPackage.js*
+- Replace *MyPackage* in 
+    - *MyPackage.st* 
+    - *MyPackage.js*
+    - *index.html*
