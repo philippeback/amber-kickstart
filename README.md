@@ -3,16 +3,23 @@ Note: NOT YET TESTED
 amber-kickstart
 ===============
 
-A starting point for a frontend with Amber.
+A starting point for a frontend with Amber. Amber is a superb project. 
+As of now (version 0.12.3) it still needs an easy way to get started for newcomers.
 
-Amber is a superb project. This project provides an empty client side sample project.
+This ReadMe describes how to get Amber running with a sample project. 
 
-This ReadMe describes how to get Amber running with the sample project. 
+
+## What do we have in here?
+
+- A ready made empty project to start with right out of the box.
+- Instructions how to install client side Amber with it.
+  (Point 2 of http://docs.amber-lang.net/overview/installing.html)
+
 
 
 ## Prerequisites
 
-You have installed Amber command line version according to the instructions on 
+You have installed the Amber command line version according to the instructions on 
     http://docs.amber-lang.net/overview/installing.html
 point 1.    
 
@@ -27,14 +34,9 @@ or
 (Ubuntu type of systems)
 
 
-## What do we have in here?
-
-- A ready made template project to start with right out of the box.
-- Instructions how to install Amber with it for a client side solution.
-  (Point 2 of http://docs.amber-lang.net/overview/installing.html)
 
 
-## Installation of Client side amber
+## Instructions
 
 Download this github project and copy the compressed file to your working folder.
 Unpack it.
