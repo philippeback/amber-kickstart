@@ -11,7 +11,7 @@ This ReadMe file describes in eight easy steps how to get Amber running with an 
 
 ## What do we have in here?
 
-- A ready made empty project to start with out of the box.
+- A preconfigured empty project to start with Amber right out of the box.
 - Instructions how to install client side Amber with it.
   (Point 2 of http://docs.amber-lang.net/overview/installing.html)
 
@@ -58,14 +58,16 @@ or
 8. To commit code, Ctrl-space and then 'k' when on a given package. The code is saved in the *st* subdirectory.
 
 
-## Note
+## Notes
 
-This sample project comes with a package *MyPackage*. If you want to change the name you have to
-
-- Rename
-    - *MyPackage.st* 
-    - *MyPackage.js*
-- Replace *MyPackage* in 
-    - *MyPackage.st* 
-    - *MyPackage.js*
-    - *index.html*
+1. This sample project comes with a package *MyPackage*. If you want to change the name you have to
+    - Rename
+        - *MyPackage.st* 
+        - *MyPackage.js*
+    - Replace *MyPackage* in 
+        - *MyPackage.st* 
+        - *MyPackage.js*
+        - *index.html*
+2. Instead of doing point 1. and 2. in the instructions you may fork this project and then clone it with
+ 
+         git clone https://github.com/myGitHubId/amber-kickstart.git
