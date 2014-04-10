@@ -1,35 +1,52 @@
+Note: NOT YET TESTED
+
 amber-kickstart
 ===============
 
 A starting point for a frontend with Amber.
 
-Amber is a superb project.
+Amber is a superb project. This project provides an empty client side sample project.
 
-Documentation and changes are a tad behind.
+This ReadMe describes how to get Amber running with the sample project. 
 
-In order to get running fast, here is a couple of elements to get started.
+
+## Prerequisite
+
+You have installed Amber command line version according to the instructions on 
+    http://docs.amber-lang.net/overview/installing.html
+point 1.    
+
+You have installed bower with either
+
+     npm install -g bower
+
+or
+    
+     sudo npm install -g bower
+
+(Ubuntu type of systems)
+
 
 What do we have in here?
 
-## prepare.sh
+- Instructions how to install Amber for a client side solution.
+  (Point 2 of http://docs.amber-lang.net/overview/installing.html)
+- A ready made template to start with right out of the box.
 
-Edit the script and change the name of the project to your liking.
+## Installation of Client side amber
 
-    PROJECT=myproject
-    npm install -g amber
-    # bower init
-    mkdir $PROJECT
-    cd $PROJECT
-    mkdir st
-    mkdir js
-    bower install --save amber
-    cp ../index.html .
+Copy the *sampleProject* folder your to your working folder.
 
-To run this properly you need nodejs and npm.
 
-Execute ./prepare.sh
-Wait until things are done
-Start Amber with:
+    cd *sampleProject*
+    
+Install Amber in the folder *sampleProject*
+
+    bower install
+
+Wait until things are done. You will end up having a folder *bower_components* in your *sampleProject* folder.
+
+Start *command line amber*
 
     amber serve
 
@@ -37,15 +54,9 @@ Point your browser to:
 
     http://localhost:4000
 
-The IDE will show. If it doesn't, make sure your browser isn't killing popup windows. I took me a while to realize that :-(
+The IDE will show. If it doesn't, make sure your browser isn't blocking popup windows. 
 
-Go to the SamplePackage at the bottom.
+In the Smalltalk browser go to the SamplePackage at the bottom.
 
 To commit code, Ctrl-space and then 'k' when on a given package.
 
-## template/
-
-This is a template/ folder which contains something you can copy or run out of the box.
-
-    cd template
-    amber serve
