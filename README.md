@@ -29,21 +29,22 @@ or
 
 ## What do we have in here?
 
-- Instructions how to install Amber for a client side solution.
+- A ready made template project to start with right out of the box.
+- Instructions how to install Amber with it for a client side solution.
   (Point 2 of http://docs.amber-lang.net/overview/installing.html)
-- A ready made template to start with right out of the box.
 
 
 ## Installation of Client side amber
 
-Copy the *sampleProject* folder your to your working folder.
+Download this github project and copy the compressed file to your working folder.
+Unpack it.
 
 
-    cd *sampleProject*
+    cd amber-kickstart
     
-Install Amber in the folder *sampleProject*
+Install Amber in the folder *amber-kickstart*
 
-    bower install
+    bower install amber --save
 
 Wait until things are done. You will end up having a folder *bower_components* in your *sampleProject* folder.
 
