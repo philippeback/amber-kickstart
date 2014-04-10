@@ -41,13 +41,17 @@ or
 1. Download this github project
 2. Copy the compressed file to your working folder and unpack it.
 3. In a terminal window do
-        cd amber-kickstart
-4. Install client side amber in the folder *amber-kickstart*
-        bower install amber --save    
+        
+         cd amber-kickstart
+4. Install client side amber in the folder *amber-kickstart*    
+        
+         bower install amber --save    
    Wait until things are done. You will end up having a folder *bower_components* in your *sampleProject* folder.
 5. Start *command line amber*
+         
          amber serve
 6. Point your browser to:
+         
          http://localhost:4000
    The IDE will show. If it doesn't, make sure your browser isn't blocking popup windows. 
 7. In the Smalltalk browser go to the SamplePackage at the bottom. Add your own code.
