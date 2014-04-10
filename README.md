@@ -46,7 +46,7 @@ or
 4. Install client side amber in the folder *amber-kickstart*    
         
          bower install amber --save    
-   Wait until things are done. You will end up having a folder *bower_components* in your *sampleProject* folder.
+   Wait until things are done. You will end up having a folder *bower_components* in your *amber-kickstart* folder.
 5. Start *command line amber*
          
          amber serve
