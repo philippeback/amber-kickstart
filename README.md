@@ -7,7 +7,7 @@ amber-kickstart
 ===============
 
 A starting point for a frontend with Amber. Amber is a superb project. 
-As of now (version 0.12.3) it still needs an easy way to get started for newcomers.
+As of now (version 0.12.4) it still needs an easy way to get started for newcomers.
 
 This ReadMe file describes in eight easy steps how to get Amber running with an empty sample project. It works with a package called *MyPackage*.
 
