@@ -1,23 +1,17 @@
 Note: 
-- This is a simplified version of Philippe's setup. 
-- He confirms that it works.
-- Instructions are more elaborate. 
+- This is a simplified version of Philippe's setup.
+- More elaborate instructions. 
+- Philippe and Tim M. confirm that it works.
 
 amber-kickstart
 ===============
 
-A starting point for a web frontend with [Amber Smalltalk](http://amber-lang.net/). 
+This project is a starting point for a web frontend development with [Amber Smalltalk](http://amber-lang.net/). 
 
 As of April 2014 (Amber version 0.12.4) it still needs an easy way to get started for newcomers.
 
-This ReadMe file describes in nine easy steps how to get Amber running with this empty sample project. It works with a package called *MyPackage*.
+This ReadMe file describes in nine steps how to get Amber running with this empty sample project. It works with a package called *MyPackage*. You may change this name as described below.
 
-
-## What do we have in here?
-
-- A preconfigured empty project (skeleton) to start with Amber right out of the box.
-- Instructions how to install client side Amber with it.
-  (Point 2 of http://docs.amber-lang.net/overview/installing.html)
 
 
 ## Prerequisites
@@ -38,8 +32,8 @@ or
 
 
 
-
 ## Setup instructions
+
 
 1. Download this github project
 2. Copy the compressed file to your working folder and unpack it.
@@ -59,9 +53,12 @@ or
    The Helios IDE will show. If it doesn't, make sure your browser isn't blocking popup windows. 
    For some reason the old IDE does not work and thus the command to open it has been commented out in *index.html*.
 
+Note: These instructions are similar to http://docs.amber-lang.net/overview/installing.html
+
+
 ## Coding with Amber
 
-7. In the Smalltalk browser go to the *MyPackage*. Add your own code. For example a method `hello` to the `MyApp`package.
+7. In the Smalltalk browser go to the *MyPackage*. Add your own code. For example a method `hello` to the `MyApp` class.
 8. To commit code, hit `Ctrl-space` and then `k` when on a given package. The code is saved in the *st* subdirectory in the file `MyPackage.st` and a compiled version is automatically saved in `MyPackage.js`in the `js` directory.
 9. As another example you might want to add another initialisation value `10`to the `initialze` method in the `Examples` package. After you have saved the code you get a counter which starts with `10` when you click on the counter button. If you do not commit the changes (Package icon is red) they are lost when you reload the web page. You find the new version of the `Examples` package in the subfolder `bower_components/amber/src`.
 
@@ -78,3 +75,4 @@ or
 2. Instead of doing point 1. and 2. in the instructions you may fork this project and then clone it with
  
          git clone https://github.com/myGitHubId/amber-kickstart.git
+3. This project and the instructions might be superseeded when https://github.com/hhzl/grunt-init-amber has been integrated into a next Amber release.
