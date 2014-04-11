@@ -58,17 +58,17 @@ or
          http://localhost:4000
    The Helios IDE will show. If it doesn't, make sure your browser isn't blocking popup windows. 
    For some reason the old IDE does not work and thus the command to open it has been commented out in *index.html*.
-7. In the Smalltalk browser go to the SamplePackage at the bottom. Add your own code.
+7. In the Smalltalk browser go to the *MyPackage*. Add your own code.
 8. To commit code, Ctrl-space and then 'k' when on a given package. The code is saved in the *st* subdirectory.
 
 
 ## Notes
 
-1. This sample project comes with a package *MyPackage*. If you want to change the name you have to
+1. This sample project comes with a package *MyPackage*. If you want to change the name to *MyGreatApp* you have to
     - Rename
-        - *MyPackage.st* 
-        - *MyPackage.js*
-    - Replace *MyPackage* in 
+        - the file *MyPackage.st* in the *st* folder to *MyGreatApp.st*
+        - the file *MyPackage.js* in the *js* folder to *MyGreatApp.js*
+    - Open the following files in a plain text editor and replace *MyPackage* with *MyGreatApp*
         - *MyPackage.st* 
         - *MyPackage.js*
         - *index.html*
