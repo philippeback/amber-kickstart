@@ -64,14 +64,14 @@ or
 
 ## Notes
 
-1. This sample project comes with a package *MyPackage*. If you want to change the name to *MyGreatApp* you have to
+1. This sample project comes with a package `MyPackage`. If you want to change the name to `MyGreatApp` you have to
     - Rename
-        - the file *MyPackage.st* in the *st* folder to *MyGreatApp.st*
-        - the file *MyPackage.js* in the *js* folder to *MyGreatApp.js*
-    - Open the following files in a plain text editor and replace *MyPackage* with *MyGreatApp*
-        - *MyPackage.st* 
-        - *MyPackage.js*
-        - *index.html*
+        - the file `MyPackage.st` in the `st` folder to `MyGreatApp.st`
+        - the file `MyPackage.js` in the *js* folder to `MyGreatApp.js`
+    - Open the following files in a plain text editor and replace `MyPackage` with `MyGreatApp` *in the code*
+        - `MyPackage.st` 
+        - `MyPackage.js`
+        - `index.html`
 2. Instead of doing point 1. and 2. in the instructions you may fork this project and then clone it with
  
          git clone https://github.com/myGitHubId/amber-kickstart.git
