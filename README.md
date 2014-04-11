@@ -1,7 +1,7 @@
 Note: 
 - This is a simplified version of Philippe's setup. 
+- He confirms that it works.
 - Instructions are more elaborate. 
-- It has NOT YET BEEN TESTED by a third person.
 
 amber-kickstart
 ===============
