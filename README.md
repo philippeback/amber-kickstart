@@ -6,18 +6,18 @@ Note:
 amber-kickstart
 ===============
 
-A starting point for a frontend with Amber. Amber is a superb project. 
-As of now (version 0.12.4) it still needs an easy way to get started for newcomers.
+A starting point for a web frontend with [Amber Smalltalk](http://amber-lang.net/). 
 
-This ReadMe file describes in eight easy steps how to get Amber running with an empty sample project. It works with a package called *MyPackage*.
+As of April 2014 (Amber version 0.12.4) it still needs an easy way to get started for newcomers.
+
+This ReadMe file describes in nine easy steps how to get Amber running with this empty sample project. It works with a package called *MyPackage*.
 
 
 ## What do we have in here?
 
-- A preconfigured empty project to start with Amber right out of the box.
+- A preconfigured empty project (skeleton) to start with Amber right out of the box.
 - Instructions how to install client side Amber with it.
   (Point 2 of http://docs.amber-lang.net/overview/installing.html)
-
 
 
 ## Prerequisites
@@ -39,7 +39,7 @@ or
 
 
 
-## Instructions
+## Setup instructions
 
 1. Download this github project
 2. Copy the compressed file to your working folder and unpack it.
@@ -58,9 +58,12 @@ or
          http://localhost:4000
    The Helios IDE will show. If it doesn't, make sure your browser isn't blocking popup windows. 
    For some reason the old IDE does not work and thus the command to open it has been commented out in *index.html*.
-7. In the Smalltalk browser go to the *MyPackage*. Add your own code.
-8. To commit code, Ctrl-space and then 'k' when on a given package. The code is saved in the *st* subdirectory.
 
+## Coding with Amber
+
+7. In the Smalltalk browser go to the *MyPackage*. Add your own code. For example a method `hello` to the `MyApp`package.
+8. To commit code, hit `Ctrl-space` and then `k` when on a given package. The code is saved in the *st* subdirectory in the file `MyPackage.st` and a compiled version is automatically saved in `MyPackage.js`in the `js` directory.
+9. As another example you might want to add another initialisation value `10`to the `initialze` method in the `Examples` package. After you have saved the code you get a counter which starts with `10` when you click on the counter button. If you do not commit the changes (Package icon is red) they are lost when you reload the web page. You find the new version of the `Examples` package in the subfolder `bower_components/amber/src`.
 
 ## Notes
 
