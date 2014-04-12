@@ -9,6 +9,7 @@ amber-kickstart
 This project is a starting point for a web frontend development with [Amber Smalltalk](http://amber-lang.net/). 
 
 As of April 2014 (Amber version 0.12.4) it still needs an easy way to get started for newcomers.
+The project is meant as a companion to the [Amber documentation](http://docs.amber-lang.net/).
 
 This ReadMe file describes in nine steps how to get Amber running with this empty sample project. It works with a package called *MyPackage*. You may change this name as described below.
 
@@ -50,8 +51,9 @@ or
 6. Point your browser to:
          
          http://localhost:4000
-   The Helios IDE will show. If it doesn't, make sure your browser isn't blocking popup windows. 
-   For some reason the old IDE does not work and thus the command to open it has been commented out in *index.html*.
+   The Helios IDE will show. If it doesn't, make sure your browser isn't blocking popup windows. As of April 2014
+   *SUnit* and *Help* cannot be activated in the launch pad. However you can access *SUnit* in the old IDE. 
+   In some cases bringing up the old IDE does not work.
 
 Note: These instructions are similar to http://docs.amber-lang.net/overview/installing.html
 
