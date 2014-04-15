@@ -1,4 +1,28 @@
-Note: 
+New amber init
+==============
+
+The approach described in this project has been superseded by a new feature implemented on 14th April 2014 -- the amber init command
+
+So you do
+
+    sudo npm -g install amber-cli
+    mkdir myAmberProj
+    cd myAmberProj
+    amber init
+    // answer questions and in particular non-empty Namespace
+    amber serve
+    
+This installs amber and a starter project.    
+You do not need this project anymore unless it has been extended with more 'kickstart' elements.
+The `sudo` command is only needed in certain cases. For Windows and non-Debian Linux it has to be ommitted.
+
+---------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Notes: 
 - This is a simplified version of Philippe's setup.
 - More elaborate instructions. 
 - Philippe and Tim Mackinnon confirm that it works.
