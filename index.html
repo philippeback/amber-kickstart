@@ -29,7 +29,7 @@
 		  // On first execution, this shouldn't be in
 		  // Comment out once you have at least a class in there
 		  // so that the js compiled code will load.
-		  ,'devproject/SamplePackage'
+		  ,'devproject/MyPackage'
 	  ], 
 	  
 	  function (amber) {
@@ -41,19 +41,19 @@
 		
 		
 	    // Start the IDE
-	    //amber.popupHelios();
-	  }
-);
+	    amber.popupHelios();
+	  });
 </script>
 
 <h1>Amber project</h1>
  <article>
-   <h1>My First Amber Project**</h1>
-   <button onclick="require('amber_vm/smalltalk').Browser._open()">class browser</button>
-   
-   <button onclick="require('amber_vm/smalltalk').Browser._openOn_(smalltalk.Benchfib2)">browse package</button>
- 
-   <button id="sayHello">say hello</button>
+   <h1>My First Amber Project</h1>
+   <button onclick="require('amber_vm/smalltalk').Counter._tryExample()">Counter</button>
+   <!--
+      Bringing up the old IDE might not work in some cases..
+   -->
+   <button onclick="require('amber_vm/smalltalk').Browser._open()">First IDE</button>
+   <button onclick="require('amber/helpers').popupHelios()">Helios IDE</button>
   </article>
 </body>
 </html>
